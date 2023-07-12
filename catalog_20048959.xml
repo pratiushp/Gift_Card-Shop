@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Date: 02/05/2022
+Student Name: Pratiush Prasain
+London Met ID: 2008959 -->
+
+<?xml-stylesheet type="text/css" href="Catalog_20048959.css"?>
+
+<!-- Creating giftCardShop as the root element -->
+
+<giftCardShop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Catalog_20048959.xsd">
+
+    <!-- Details for the gift Shop -->
+
+    <giftshopName> Gift Hub </giftshopName>
+    <giftshopInfo shopID= "101">
+        <logo id= "logo1"/>
+        <storeName>The Gift Mart. </storeName>
+        <address> Kathmandu, Nepal</address>
+        <telephoneNumber>+977-9824536710</telephoneNumber>
+        <websiteURL>www.patgiftcshop.com</websiteURL>
+    </giftshopInfo>
+
+
+<!-- All the gift card elements and inside giftCards tag -->
+<!-- Creating type as Digital Card -->
+    <giftCards type= "Digital Card">
+    <!-- Opening tag for digitalgiftcard -->
+        <digitalgiftcard productID="001">
+            <name> Name: Razer gold gift Card Voucher</name>
+            <Genre> Genre: Game </Genre>
+            <cost> Cost: $20 </cost>
+            <validity> Validity: Use before 2 year of issue </validity>
+            <numberOfUsers>User: 1 </numberOfUsers>
+            <Availability> Availability: Yes </Availability>
+            <discountvoucher> Discount: ---- </discountvoucher>
+            <Sale> Sale: No  </Sale>
+            <description> Description: Razer Gold is the unified virtual credits for gamers worldwide.
+             Use Razer Gold to buy games and in-game content to get more bang for your buck—including
+              getting rewarded with Razer Silver and exclusive game deals. You can make a purchase using
+                Razer Gold in over 2,000 games and entertainment content. </description>
+                <!-- Giving id for the image -->
+            <image id= "image1"/>
+            <!-- Endng tag for digitalgiiftcard -->
+        </digitalgiftcard>
+
+        <digitalgiftcard productID="002">
+            <name>Name: Ubisoft </name>
+            <Genre> Genre: Game </Genre>
+            <cost>Cost: $50 </cost>
+            <validity>Validity: Use before 10 month of issue </validity>
+            <!-- <numberOfUsers>User: 1</numberOfUsers> -->
+            <Availability> Availability: Yes </Availability>
+            <discountvoucher>Discount: 2% </discountvoucher>
+            <Sale> Sale: Yes  </Sale>
+            <description> Description: You can use your Ubisoft Wallet Funds to purchase credits in the game,
+             but only if you own the game through Ubisoft. You can use the Ubisoft Store website to purchase credits,
+              these will be available to you in your game, no matter what launcher you purchased the game from originally. </description>
+            <image id= "image2"/>
+        </digitalgiftcard>
+
+        <digitalgiftcard productID="003">
+            <name>Name: Steam </name>
+            <Genre> Genre: Game </Genre>
+            <cost>Cost: $50 </cost>
+            <validity>Validity: Use before 5 month of issue </validity>
+            <numberOfUsers>User: 1</numberOfUsers>
+            <Availability> Availability: Yes </Availability>
+            <discountvoucher>Discount: ---- </discountvoucher>
+            <Sale> Sale: No  </Sale>
+            <description> Description: You can use your Steam Wallet Funds to purchase credits in the game, 
+            but only if you own the game through Steam. </description>
+            <image id= "image3"/>
+        </digitalgiftcard>
+
+        <digitalgiftcard productID="004">
+            <name>Name: Origin </name>
+            <Genre> Genre: Game </Genre>
+            <cost>Cost: $10</cost>
+            <validity>Validity: Use before 2 year of issue </validity>
+            <numberOfUsers>User: 1</numberOfUsers>
+            <Availability> Availability: Yes </Availability>
+
+            <Sale> Sale: Yes  </Sale>
+            <description>Description: An EA Gift Card is a gift card for EA Desktop or Origin. 
+            You can gift one to someone so they can buy what they want, or you can use it to add funds to your EA Wallet.
+             They're available in different amounts, depending on where you live. </description>
+            <image id= "image4"/>
+        </digitalgiftcard>
+
+        <digitalgiftcard productID="005">
+            <name>Name: Apple </name>
+            <Genre> Genre: E-Commerce </Genre>
+            <cost>Cost: $50</cost>
+            <validity>Validity: Use before 2 year of issue </validity>
+            <!-- <numberOfUsers>User: 1</numberOfUsers> -->
+            <Availability> Availability: Yes </Availability>
+            
+            <Sale> Sale: No  </Sale>
+            <description> Description: Redeem Apple Gift Cards or add money directly into your Apple Account Balance anytime.
+             Apple Gift Cards are solely for the purchase of goods and services from the Apple Store, the Apple Store app,
+              apple.com, the App Store, iTunes, Apple Music, Apple TV, Apple Books, and other Apple properties. </description>
+            <image id= "image5"/>
+        </digitalgiftcard>
+
+        <digitalgiftcard productID="006">
+            <name>Name: Xbox Voucher </name>
+            <Genre> Genre: Game </Genre>
+            <cost>Cost: $20 </cost>
+            <validity>Validity: Use before 2 year of issue </validity>
+            <numberOfUsers>User: 1</numberOfUsers>
+            <Availability> Availability: Not Available  </Availability>
+            <discountvoucher>Discount: ---- </discountvoucher>
+            <Sale> Sale: Yes  </Sale>
+            <description> Description: With a Microsoft or Xbox gift card, you let the lucky recipient choose the gift they want.
+             There are no fees or expiration dates, and either card can be used to buy: Subscriptions such as: Xbox Live Gold. </description>
+            <image id= "image6"/>
+        </digitalgiftcard>
+
+        <digitalgiftcard productID="007">
+            <name>Name: Playstation Online Code </name>
+            <Genre> Genre: Game </Genre>
+            <cost>Cost: $20 </cost>
+            <validity>Validity: Use before 2 year of issue </validity>
+            <numberOfUsers>User: 1</numberOfUsers>
+            <Availability> Availability: Yes </Availability>
+            <discountvoucher>Discount: ---- </discountvoucher>
+            <Sale> Sale: Yes  </Sale>
+            <description> Description: A gift card you can use towards the purchase of whatever is sold on the PSN store. Movies, games etc.
+             The 12 month membership is a subscription that gives you access to free monthly games and discounts throughout the length of your 
+             subscription on the PSN store.. </description>
+            <image id= "image7"/>
+        </digitalgiftcard>
+
+        <digitalgiftcard productID="008">
+            <name>Name: FIFA</name>
+            <Genre> Genre: Game </Genre>
+            <cost>Cost: $15</cost> 
+            <validity>Validity: Use before 2 year of issue </validity>
+            <numberOfUsers>User: 1</numberOfUsers>
+            <Availability>Availability: Yes </Availability>
+            <discountvoucher>Discount: ---- </discountvoucher>
+            <Sale> Sale: Yes  </Sale>
+            <description> Description: FIFA is a saga of football video games published annually by Electronic Arts under the EA Sports label.
+             Like many other videogame companies, EA offers gift cards for FIFA. These are an option for any FIFA game lover. Here's how to get these cards,
+              what they are for and their price. </description>
+            <image id= "image8"/>
+        </digitalgiftcard>
+
+        <digitalgiftcard productID="009">
+            <name>Name: Disney+ </name>
+            <Genre> Genre: Entertainment </Genre>
+            <cost>Cost: $10</cost> 
+            <validity>Validity: Use before 2 year of issue </validity>
+            <numberOfUsers>User: 1</numberOfUsers>
+            <Availability>Availability: Not Available  </Availability>
+            <discountvoucher>Discount: ---- </discountvoucher>
+            <Sale> Sale: No  </Sale>
+            <description> Description: A Disney+ gift subscription is an easy way to give one year of Disney+ to someone special.
+             When you purchase the gift subscription for $79.99, you'll be paying for their first year of Disney+. 
+             After a year, they'll have the option to add their own payment details and continue their subscription. </description>
+            <image id= "image9"/>
+        </digitalgiftcard>
+
+
+        <digitalgiftcard productID="010">
+            <name>Name: Epic Coupon </name>
+            <Genre> Genre: Game </Genre>
+            <cost>Cost: $10</cost> 
+            <validity>Validity: Use before 2 year of issue </validity>
+            <numberOfUsers>User: 1</numberOfUsers>
+            <!-- <Availability>Availability: Yes </Availability> -->
+            <discountvoucher>Discount: 4% </discountvoucher>
+            <Sale> Sale: Yes  </Sale>
+            <description> Description: Epic Coupons are non-transferrable and may not be resold, bartered, auctioned, or redeemed for cash,
+             and they have no equivalent cash value. You can only redeem one (1) Epic Coupon per transaction, and an Epic Coupon, if one is available,
+              will be automatically applied to your next eligible transaction. </description>
+            <image id= "image10"/>
+        </digitalgiftcard>
+        
+    </giftCards>
+    <!-- Creating footer -->
+    <Facebook> @2022 Pratiush Prasain </Facebook>
+</giftCardShop>
